@@ -8,6 +8,7 @@
 
 #header {
   border: solid 1px;
+  height: 150px;
 }
 
 .header-image {
@@ -24,8 +25,7 @@ ul.nav {
   clear: both;
   padding: 0px;
   margin: 6px;
-  display: inline-block;
-
+  float: left;
 }
 
 ul.nav li{
@@ -33,33 +33,35 @@ ul.nav li{
 }
 
 .search-form {
-  display: inline-block;
   margin: 6px;
+  float: right;
 }
 
 #main {
   clear: both;
   margin: 15px 0 0 0;
+  height: 400px;
 }
 
 #column-left {
   border: solid 1px;
-  display: inline-block;
   width: 30%;
   height: 400px;
   margin: 0 10px 0 0;
   padding: 5px 0 0 5px;
+  float: left;
 }
 
 #column-right {
   border: solid 1px; 
-  display: inline-block;
   width: 65%;
   height: 400px;
   padding: 5px 0 0 5px;
+  float: right;
 }
 
 #footer {
+  clear: both;
   border: solid 1px;
   margin: 15px 0 0 0;
   height: 30px;
@@ -71,8 +73,8 @@ ul.nav li{
   width: 200px;
   height: 200px;
   padding: 5px 0 0 5px;
-  position: absolute;
-  right: 0;
+  position: fixed;
+  right: 15%;
   top: 250px;
   background-color: white;
 }
